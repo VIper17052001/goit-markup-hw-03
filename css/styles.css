@@ -3,6 +3,15 @@ body {
   color: #212121;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Змінні */
 :root {
   --first-text-color: #2196f3;
   --second-text-color: #757575;
@@ -12,8 +21,30 @@ body {
   --first-button-color: #2196f3;
   --second-button-color: #f5f4fa;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 /* Header */
 .header {
+  padding: 25px 0;
+  display: flex;
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .header-logo {
   font-family: "Raleway";
@@ -23,15 +54,29 @@ body {
   line-height: 1.19;
   color: black;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 .header-logo-color {
   color: var(--first-text-color);
 }
+
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+}
 .header-list {
+  display: flex;
 }
 .header-item {
+  margin-right: 50px;
+}
+.header-item:last-child {
+  margin-right: 331px;
 }
 .header-link {
+  display: block;
   color: #212121;
   font-style: normal;
   font-weight: 500;
@@ -47,8 +92,14 @@ body {
   color: var(--first-text-color);
 }
 .header-contact-list {
+  display: inline-block;
+  display: flex;
 }
 .header-contact-item {
+  margin-right: 50px;
+}
+.header-contact-item:last-child {
+  margin-right: 0;
 }
 .header-contact-mail {
   color: var(--second-text-color);
@@ -79,6 +130,7 @@ body {
   background-color: var(--first-background-color);
 }
 .hero-headline {
+  width: 696px;
   text-transform: uppercase;
   color: var(--third-text-color);
   font-weight: 900;
