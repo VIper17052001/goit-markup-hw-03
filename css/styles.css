@@ -72,9 +72,9 @@ section {
 .header-item {
   margin-right: 50px;
 }
-.header-item:last-child {
+/* .header-item:last-child {
   margin-right: 331px;
-}
+} */
 .header-link {
   display: block;
   color: #212121;
@@ -92,8 +92,8 @@ section {
   color: var(--first-text-color);
 }
 .header-contact-list {
-  display: inline-block;
   display: flex;
+  margin-left: auto;
 }
 .header-contact-item {
   margin-right: 50px;
@@ -137,6 +137,8 @@ section {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  margin: auto;
+  text-align: center;
 }
 .hero-btn {
   background-color: var(--first-button-color);
@@ -158,8 +160,11 @@ section {
 .softskills {
 }
 .softskills-list {
+  display: flex;
 }
 .softskills-item {
+  margin-right: 30px;
+  width: 270px;
 }
 .softskills-headline {
   text-transform: uppercase;
@@ -167,6 +172,7 @@ section {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .softskills-text {
   color: var(--second-text-color);
@@ -182,10 +188,17 @@ section {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .occupation-list {
+  display: flex;
 }
 .occupation-item {
+  margin-right: 30px;
+}
+.occupation-item:last-child {
+  margin-right: 0;
 }
 /* Team */
 .team {
@@ -196,26 +209,38 @@ section {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .team-list {
+  display: flex;
 }
 .team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  text-align: center;
 }
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-text {
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 /* Footer */
 .footer {
   background-color: var(--first-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--third-text-color);
@@ -231,6 +256,13 @@ section {
 .footer-list {
 }
 .footer-item {
+  margin-bottom: 10px;
+}
+.footer-item:first-child {
+  margin-top: 20px;
+}
+.footer-item:last-child {
+  margin-bottom: 0px;
 }
 .map-link {
   color: var(--third-text-color);
