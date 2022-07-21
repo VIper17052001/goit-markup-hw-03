@@ -349,12 +349,17 @@ section {
   justify-content: center;
   gap: 30px;
 }
-.project-item {
-  border: 1px solid #eeeeee;
-  width: 370px;
-  padding-bottom: 20px;
+.project-flex {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-
+.project-item {
+  /* border: 1px solid #eeeeee; */
+  border-top: none;
+  width: 370px;
+  /* padding-bottom: 20px; */
+}
 .project-headline {
   color: #212121;
   font-style: normal;
@@ -362,7 +367,8 @@ section {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px;
+  padding: 20px 24px 0px;
+  margin-bottom: 4px;
 }
 .project-text {
   color: var(--second-text-color);
@@ -371,6 +377,7 @@ section {
   letter-spacing: 0.03em;
   margin-left: 24px;
   margin-right: 24px;
+  padding-bottom: 20px;
 }
 
 .project-link {
