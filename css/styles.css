@@ -355,10 +355,7 @@ section {
   border-bottom: 1px solid #eeeeee;
 }
 .project-item {
-  /* border: 1px solid #eeeeee; */
-  border-top: none;
   width: 370px;
-  /* padding-bottom: 20px; */
 }
 .project-headline {
   color: #212121;
