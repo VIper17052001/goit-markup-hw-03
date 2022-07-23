@@ -217,6 +217,7 @@ section {
   background-color: var(--second-background-color);
 }
 .team-flex {
+  background-color: transparent;
   padding-top: 30px;
   padding-bottom: 30px;
 }
