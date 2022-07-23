@@ -45,9 +45,8 @@ ul {
 
 /* Header */
 .header {
-  padding: 25px 0;
   display: flex;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 section {
   padding-top: 94px;
@@ -87,6 +86,8 @@ section {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -171,6 +172,7 @@ section {
 }
 /* Softskills */
 .softskills {
+  padding-bottom: 0;
 }
 .softskills-list {
   display: flex;
@@ -214,6 +216,10 @@ section {
 .team {
   background-color: var(--second-background-color);
 }
+.team-flex {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-headline {
   font-weight: 700;
   font-size: 36px;
@@ -236,7 +242,6 @@ section {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-text {
@@ -244,7 +249,6 @@ section {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 /* Footer */
 .footer {
@@ -262,14 +266,12 @@ section {
   letter-spacing: 0.03em;
 }
 .address {
+  margin-top: 20px;
 }
 .footer-list {
 }
 .footer-item {
   margin-bottom: 10px;
-}
-.footer-item:first-child {
-  margin-top: 20px;
 }
 .footer-item:last-child {
   margin-bottom: 0px;
@@ -314,14 +316,12 @@ section {
 }
 .portfolio-nav-list {
   display: flex;
-  width: 611px;
   column-gap: 8px;
   margin: auto;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-flex {
-  justify-content: space-between;
+  justify-content: center;
 }
 .portfolio-nav-item {
   font-weight: 500;
@@ -353,6 +353,7 @@ section {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .project-item {
   width: 370px;
@@ -364,7 +365,6 @@ section {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding: 20px 24px 0px;
   margin-bottom: 4px;
 }
 .project-text {
@@ -372,9 +372,6 @@ section {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-right: 24px;
-  padding-bottom: 20px;
 }
 
 .project-link {
